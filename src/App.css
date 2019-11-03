@@ -1,7 +1,186 @@
-.header {
-  text-align: center;
+body{
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-.toast {
-  margin: 0 auto;
+div{
+  margin:0px;
 }
+.Screen{
+  backgound-color: #ffffff;
+  disĺay: flex;
+  flex-direction; column;
+  min-height: 100%;
+}
+
+.Screen .Row_1{
+  disĺay: grid;
+  grid-template-columns: 14% 1% 0% auto 2%;
+  grid-template-rows: 36% 6% auto 18%;
+  margin-right: 3%;
+  margin-left: 3%;
+  min-height: 200px;
+  margin-top: 20px;
+}
+
+.Screen .Image {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  height: 100%;
+  width: 100%;
+}
+
+.Screen .Primary_Label {
+  color: #007fff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Screen .Label_1{
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Screen .Row_2{
+  disĺay: grid;
+  grid-template-columns: auto 8% auto 8% 14%;
+  grid-template-rows: 8% auto 8%;
+  margin-right: 14%;
+  margin-left: 14%;
+  min-height: 78px;
+  margin-top: 104px;
+}
+
+.Screen .DropDown {
+  background-color: #16a5d7;
+  color: #ffffff;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  border: 1px solid #007fff;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+Screen .DropDown:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+.Screen .DropDown_1 {
+  background-color: #16a5d7;
+  color: #ffffff;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  border: 1px solid #007fff;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+Screen .DropDown_1:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+.Screen .OK {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+Screen .OK:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+.Screen .Row_3 {
+  disĺay: grid;
+  grid-template-columns: 2% auto 3%;
+  grid-template-rows: 41% 13% auto;
+  margin-right: 3%;
+  margin-left: 14%;
+  min-height: 156px;
+  margin-top: 132px;
+  margin-bottom: 30px;
+}
+
+.Screen .Primary_Label_1 {
+  color: #007fff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Screen .Label{
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+
+
+
+

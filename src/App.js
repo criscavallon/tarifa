@@ -1,40 +1,22 @@
-import React, { useState } from "react";
+<div class="Screen MatcScreen">
+  <div class="Column_1">
+    <div class="Row_1"><img src="undefined/ddd.jpg" class="Image" />
+     <div class="Primary_Label">Como Funciona</div>
+     <div class="Label_1">São apenas 2 passos:
+     1. Escolha o serviço bancário que deseja comparar.&nbsp;
+     2. Informe a quantidade que utiliza por mês.
+    </div>
+   </div>
+   <div class="Row_2">
+    <div class="DropDown" />
+    <div class="DropDown_1" />
+    <div class="OK">OK</div>
+   </div>
+   <div class="Row_3">
+    <div class="Primary_Label_1">Quem Somos</div>
+    <div class="Label">O Preço da conta PJ é um comparativo de tarifas de vários bancos para ajudar o empresário de Micro e Pequenas Empresas na escolha do menor preço.</div>
+   </div>
+  </div>
+</div>
 
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Toast from "react-bootstrap/Toast";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 
-import "./App.css";
-
-const ExampleToast = ({ children }) => {
-  const [show, toggleShow] = useState(true);
-
-  return (
-    <>
-      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
-      <Toast show={show} onClose={() => toggleShow(false)}>
-        <Toast.Header>
-          <strong className="mr-auto">React-Bootstrap</strong>
-        </Toast.Header>
-        <Toast.Body>{children}</Toast.Body>
-      </Toast>
-    </>
-  );
-};
-
-const App = () => (
-  <Container className="p-3">
-    <Jumbotron>
-      <h1 className="header">Welcome To React-Bootstrap</h1>
-      <ExampleToast className="toast">
-        We now have Toasts
-        <span role="img" aria-label="tada">
-          🎉
-        </span>
-      </ExampleToast>
-    </Jumbotron>
-  </Container>
-);
-
-export default App;
