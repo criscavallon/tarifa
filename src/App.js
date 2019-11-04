@@ -1,3 +1,9 @@
+import React from 'react';
+import App from './App';
+
+class tarifa extends React.Component {
+  render() {
+    return (
 <div class="Screen MatcScreen">
   <div class="Column_1">
     <div class="Row_1"><img src="undefined/ddd.jpg" class="Image" />
@@ -13,10 +19,14 @@
     <div class="OK">OK</div>
    </div>
    <div class="Row_3">
-    <div class="Primary_Label_1">Quem Somos</div>
-    <div class="Label">O Preço da conta PJ é um comparativo de tarifas de vários bancos para ajudar o empresário de Micro e Pequenas Empresas na escolha do menor preço.</div>
+     <div class="Primary_Label_1">Quem Somos</div>
+     <div class="Label">O Preço da conta PJ é um comparativo de tarifas de vários bancos para ajudar o empresário de Micro e Pequenas Empresas na escolha do menor preço. </div>
    </div>
   </div>
 </div>
+);
+  }
+}
 
+export default App;
 
