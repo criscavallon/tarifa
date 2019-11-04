@@ -28,5 +28,10 @@ class tarifa extends React.Component {
   }
 }
 
+React.createElement("div", {
+  className: "tarifa"
+}
+
 export default App;
+
 
