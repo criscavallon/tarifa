@@ -1,0 +1,129 @@
+body {
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+div {
+  margin:0px;
+}
+
+.Screen_1 {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 720px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.Screen_1 .Row_4 {
+  display: inline-block;
+  width: 1154px;
+  height: 430px;
+  margin-top: 20px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.Screen_1 .Column_4 {
+  display: inline-block;
+  width: 230px;
+  height: 430px;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+
+.Screen_1 .Image_1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
+.Screen_1 .Primary_Button {
+  background-color: #007fff;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1;
+  border: 1px solid #0275d8;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  width: 174px;
+  height: 54px;
+  margin-top: -24px;
+  margin-left: 30px;
+}
+
+.Screen_1 .Primary_Button:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+
+.Screen_1 .CheckBoxGroup {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1;
+  border: 1px solid #333333;
+  display: inline-block;
+  width: 200px;
+  height: 148px;
+  margin-top: 52px;
+  margin-left: 30px;
+}
+
+
+.Screen_1 .Table {
+  background-color: #fff;
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 40px;
+  letter-spacing: 1;
+  line-height: 1;
+  border: 1px solid #e5e5e5;
+  padding: 10px 5px 10px 5px;
+  display: inline-block;
+  width: 856px;
+  height: 306px;
+  margin-top: 110px;
+  margin-left: 68px;
+}
+
+
+.Screen_1 .Primary_Label {
+  color: #007fff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin-top: 2248px;
+  margin-left: 1836px;
+}
+
+

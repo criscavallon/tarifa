@@ -1,0 +1,221 @@
+body {
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+div {
+  margin:0px;
+}
+
+.Screen {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 720px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.Screen .Column_1 {
+  width: 1246px;
+  height: 670px;
+  margin-top: 20px;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+
+.Screen .Row_1 {
+  display: inline-block;
+  width: 1246px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.Screen .Image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
+.Screen .Primary_Label {
+  color: #007fff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  display: inline-block;
+  width: 1036px;
+  height: 84px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
+.Screen .Label_1 {
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  display: inline-block;
+  width: 1050px;
+  height: 92px;
+  margin-top: 72px;
+  margin-left: 0px;
+}
+
+
+.Screen .Row_2 {
+  display: inline-block;
+  width: 916px;
+  height: 78px;
+  margin-top: 104px;
+  margin-left: 180px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.Screen .DropDown {
+  background-color: #16a5d7;
+  color: #ffffff;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  border: 1px solid #007fff;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  width: 324px;
+  height: 72px;
+  margin-top: 6px;
+  margin-left: 0px;
+}
+
+.Screen .DropDown:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+
+.Screen .DropDown_1 {
+  background-color: #16a5d7;
+  color: #ffffff;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  border: 1px solid #007fff;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  width: 324px;
+  height: 72px;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+.Screen .DropDown_1:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+
+.Screen .OK {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  display: inline-block;
+  width: 128px;
+  height: 72px;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+.Screen .OK:hover {
+  background-color: #25aa5;
+  border-bottom-color: #1549b;
+  border-top-color: #1549b;
+  border-left-color: #1549b;
+  border-right-color: #1549b;
+}
+
+
+.Screen .Row_3 {
+  display: inline-block;
+  width: 1067px;
+  height: 156px;
+  margin-top: 132px;
+  margin-left: 179px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.Screen .Primary_Label_1 {
+  color: #007fff;
+  text-align: center;
+  font-family: Arial, " sans-serif";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  display: inline-block;
+  width: 1036px;
+  height: 84px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
+.Screen .Label {
+  color: #333333;
+  text-align: left;
+  font-family: Arial, " sans-serif";
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1.42857;
+  display: inline-block;
+  width: 1050px;
+  height: 92px;
+  margin-top: 64px;
+  margin-left: 0px;
+}
+
+
