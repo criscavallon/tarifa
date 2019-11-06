@@ -1,7 +1,6 @@
 import React from 'react';
-import App from './App';
 
-class tarifa extends React.Component {
+class Tarifa extends React.Component {
 
     constructor(props) {
         super(props);
@@ -14,13 +13,13 @@ class tarifa extends React.Component {
 
 
     componentDidMount() {
-        fetch("https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifaPorValores/versao/v1/odata/GruposConsolidados?%24format=json\" -H  \"accept: application/json;odata.metadata=minimal")
+        fetch("https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifaPorValores/versao/v1/odata/GruposConsolidados?%24format=json")
             .then(res => res.json())
             .then(
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result.items
+                        items: result
                     });
                 },
                 // Note: it's important to handle errors here
@@ -59,10 +58,6 @@ class tarifa extends React.Component {
   }
 }
 
-React.createElement("div", {
-  className: "tarifa"
-}
-
-export default App;
+export default Tarifa;
 
 
