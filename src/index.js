@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Tarifa from './App';
+import Tarifa from './Tarifa';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Tarifa />, document.getElementById('root'));

@@ -19,7 +19,7 @@ class Tarifa extends React.Component {
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result
+                        items: result.value
                     });
                 },
                 // Note: it's important to handle errors here
@@ -46,8 +46,8 @@ class Tarifa extends React.Component {
 
                 <ul>
                     {items.map(item => (
-                            <li key={item.name}>
-                                {item.name} {item.price}
+                            <li key={item.Codigo}>
+                                {item.Codigo} {item.Nome}
                             </li>
                         ))}
                 </ul>
