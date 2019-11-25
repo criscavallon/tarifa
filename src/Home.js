@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Screen.css'
-/*import FormHelperText from '@material-ui/core/FormHelperText';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import { makeStyles } from '@material-ui/core/styles';
+
+import App from './Tarifa.css'
+import Tarifa from './Tarifa';
+
 const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(1),
@@ -16,41 +19,27 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(2),
   },
 }));
-*/
 
-class Tarifa extends React.Component {
-  /*const classes = useStyles();
-  const [age, setAge] = React.useState('');
+function Teste(){
+  const classes = useStyles();
+  const [tarifa, setTarifa] = React.useState('');
 
-  const inputLabel = React.useRef(null);
+ /*  const inputLabel = React.useRef(null);
   const [labelWidth, setLabelWidth] = React.useState(0);
   React.useEffect(() => {
     setLabelWidth(inputLabel.current.offsetWidth);
-  }, []);
+  }, []); */
 
   const handleChange = event => {
-    setAge(event.target.value);
+    setTarifa(event.target.value);
   };
-*/
-  render(){
-    return (
-<div class="Screen MatcScreen">
-  <div class="Column_1">
-    <div class="Row_1"><img src="/cris/web/lab01/tarifa/scr/logo.jpg" class="Image" />
-     <div class="Primary_Label">Como Funciona</div>
-     <div class="Label_1"><p>São apenas 2 passos:</p>
-     1. Escolha o serviço bancário que deseja comparar.<br/>
-     2. Informe a quantidade que utiliza por mês.
-    </div>
-   </div>
-   <div class="Row_2">
-    <div class="DropDown" />
-//	<FormControl className={classes.formControl}>
-//       <InputLabel id="demo-simple-select-autowidth-label">Age</InputLabel>
+  return(
+    <FormControl className={classes.formControl}>
+       <InputLabel id="demo-simple-select-autowidth-label">Tarifa</InputLabel>
         <Select
           labelId="demo-simple-select-autowidth-label"
           id="demo-simple-select-autowidth"
-          value={age}
+          value={tarifa}
           onChange={handleChange}
           autoWidth
         >
@@ -63,8 +52,26 @@ class Tarifa extends React.Component {
         </Select>
         <FormHelperText>Auto width</FormHelperText>
       </FormControl>
+  );
+}
 
-    <div class="DropDown_1" />
+class Home extends React.Component {
+  render(){
+    return (
+<div class="Screen MatcScreen">
+  <div class="Column_1">
+    <div class="Row_1"><img src="/cris/web/lab01/tarifa/scr/logo.jpg" class="Image" />
+     <div class="Primary_Label">Como Funciona</div>
+     <div class="Label_1"><p>É bem simples apenas:</p>
+     1. Escolha o serviço bancário que deseja comparar.<br/>
+     2. Clique um OK.
+    </div>
+   </div>
+   <div class="Row_2">
+    <div class="DropDown">
+    <Tarifa/>
+    </div>
+    
     <div class="OK">OK</div>
    </div>
    <div class="Row_3">
@@ -77,11 +84,11 @@ class Tarifa extends React.Component {
   }
 }
 
-export default App;
+export default Home;
 
-
+/* 
 ReactDOM.render(
-  <Tarifa />,
+  <Tarifa2 />,
   document.getElementById('root')
-);
+); */
 
