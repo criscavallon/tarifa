@@ -6,7 +6,9 @@ body {
 div {
   margin:0px;
 }
-
+h1{
+color: #000;
+}
 .Screen {
   background-color: #ffffff;
   width: 1280px;

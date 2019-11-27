@@ -21,22 +21,22 @@ const useStyles = makeStyles(theme => ({
 function Teste(props){
   const classes = useStyles();
   const [age, setAge] = React.useState('');
+ let state = [];
 
  /*  const inputLabel = React.useRef(null);
   const [labelWidth, setLabelWidth] = React.useState(0);
   React.useEffect(() => {
     setLabelWidth(inputLabel.current.offsetWidth);
   }, []); */
-
   const handleChange = event => {
     console.log("111111111111111111111 " + event.target.value)
     setAge(event.target.value);
-    fetch("https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifaPorValores/versao/v1/odata/ListaTarifasPorValores(CodigoGrupoConsolidado=@CodigoGrupoConsolidado,CodigoServico=@CodigoServico)?%40CodigoGrupoConsolidado=03&%40CodigoServico=" + event.target.value + "&%24format=json")
+    fetch("https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifaPorValores/versao/v1/odata/ListaTarifasPorValores(CodigoGrupoConsolidado=@CodigoGrupoConsolidado,CodigoServico=@CodigoServico)?@CodigoGrupoConsolidado='03'&@CodigoServico='"+event.target.value+"'&$top=100&$format=json&$select=Cnpj,RazaoSocial,ValorMaximo,Periodicidade")
  
             .then(res => res.json())
-            .then(
-                (result) => {
-                    console.log(result);
+            .then((result) => {
+			state = result.value;
+			return(<div>{state}</div>);
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
@@ -46,7 +46,9 @@ function Teste(props){
                 }
             )
   };
+
   return(
+<div>
     <FormControl className={classes.formControl}>
        <InputLabel id="demo-simple-select-autowidth-label">Tarifa</InputLabel>
         <Select
@@ -67,6 +69,8 @@ function Teste(props){
         </Select>
         <FormHelperText>Selecione</FormHelperText>
       </FormControl>
+<h1>{console.log(state)}</h1>
+</div>
   );
 }
 
