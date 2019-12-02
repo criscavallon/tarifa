@@ -41,15 +41,6 @@ color: #000;
 }
 
 
-.Screen .Image {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-
 .Screen .Primary_Label {
   color: #007fff;
   text-align: center;
@@ -57,12 +48,12 @@ color: #000;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
-  line-height: 1.42857;
+  line-height: 1;
   display: inline-block;
   width: 1036px;
   height: 84px;
-  margin-top: 0px;
-  margin-left: 0px;
+  margin-top: 150px;
+  margin-left: -250px;
 }
 
 
@@ -72,12 +63,12 @@ color: #000;
   font-family: Arial, " sans-serif";
   font-size: 28px;
   letter-spacing: 0;
-  line-height: 1.42857;
+  line-height: 1;
   display: inline-block;
-  width: 1050px;
-  height: 92px;
-  margin-top: 50px;
-  margin-left: -580px;
+  width: 1036px;
+  height: 84px;
+  margin-top: 175px;
+  margin-left: -650px;
 }
 
 
@@ -98,13 +89,13 @@ color: #000;
 
 .Screen .DropDown {
   background-color: #16a5d7;
-  color: #ffffff;
+  color: #0000;
   text-align: left;
   font-family: Arial, " sans-serif";
   font-size: 28px;
   border: 1px solid #007fff;
   border-radius: 4px;
-  padding: 10px 30px 10px 30px;
+  padding: 1px 300px 10px 30px;
   display: inline-block;
   width: 324px;
   height: 72px;
@@ -119,61 +110,6 @@ color: #000;
   border-left-color: #1549b;
   border-right-color: #1549b;
 }
-
-
-.Screen .DropDown_1 {
-  background-color: #16a5d7;
-  color: #ffffff;
-  text-align: left;
-  font-family: Arial, " sans-serif";
-  font-size: 28px;
-  border: 1px solid #007fff;
-  border-radius: 4px;
-  padding: 10px 30px 10px 30px;
-  display: inline-block;
-  width: 324px;
-  height: 72px;
-  margin-top: 0px;
-  margin-left: 70px;
-}
-
-.Screen .DropDown_1:hover {
-  background-color: #25aa5;
-  border-bottom-color: #1549b;
-  border-top-color: #1549b;
-  border-left-color: #1549b;
-  border-right-color: #1549b;
-}
-
-
-.Screen .OK {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  font-family: Arial, " sans-serif";
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 1.42857;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  padding: 10px 30px 10px 30px;
-  cursor: pointer;
-  display: inline-block;
-  width: 128px;
-  height: 72px;
-  margin-top: 0px;
-  margin-left: 70px;
-}
-
-.Screen .OK:hover {
-  background-color: #25aa5;
-  border-bottom-color: #1549b;
-  border-top-color: #1549b;
-  border-left-color: #1549b;
-  border-right-color: #1549b;
-}
-
 
 .Screen .Row_3 {
   display: inline-block;
@@ -197,12 +133,12 @@ color: #000;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
-  line-height: 1.42857;
+  line-height: 1;
   display: inline-block;
   width: 1036px;
   height: 84px;
-  margin-top: 0px;
-  margin-left: 0px;
+  margin-top: -500px;
+  margin-left: -450px;
 }
 
 
@@ -212,12 +148,12 @@ color: #000;
   font-family: Arial, " sans-serif";
   font-size: 28px;
   letter-spacing: 0;
-  line-height: 1.42857;
+  line-height: 1;
   display: inline-block;
   width: 1000px;
   height: 92px;
-  margin-top: 64px;
-  margin-left: -720px;
+  margin-top: -450px;
+  margin-left: -630px;
 }
 
 

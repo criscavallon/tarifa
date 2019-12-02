@@ -46,9 +46,7 @@ function Teste(){
           <MenuItem value="">
             <em>None</em>
           </MenuItem>
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+          
         </Select>
         <FormHelperText>Auto width</FormHelperText>
       </FormControl>
@@ -60,11 +58,10 @@ class Home extends React.Component {
     return (
 <div class="Screen MatcScreen">
   <div class="Column_1">
-    <div class="Row_1"><img src="/cris/web/lab01/tarifa/scr/logo.jpg" class="Image" />
+    <div class="Row_1">
      <div class="Primary_Label">Como Funciona</div>
-     <div class="Label_1"><p>É bem simples apenas:</p>
-     1. Escolha o serviço bancário que deseja comparar.<br/>
-     2. Clique um OK.
+     <div class="Label_1"><p>É bem simples, basta escolher o serviço que deseja comparar.</p>
+     <br/>
     </div>
    </div>
    <div class="Row_2">
@@ -72,11 +69,10 @@ class Home extends React.Component {
     <Tarifa/>
     </div>
     
-    <div class="OK">OK</div>
    </div>
    <div class="Row_3">
      <div class="Primary_Label_1">Quem Somos</div>
-     <div class="Label">O Preço da conta PJ é um comparativo de tarifas de vários bancos para ajudar o empresário de Micro e Pequenas Empresas na escolha do menor preço. </div>
+     <div class="Label">Um comparativo de tarifas de vários bancos para te ajudar na escolha da menor tarifa. </div>
    </div>
   </div>
 </div>
@@ -86,9 +82,5 @@ class Home extends React.Component {
 
 export default Home;
 
-/* 
-ReactDOM.render(
-  <Tarifa2 />,
-  document.getElementById('root')
-); */
+
 

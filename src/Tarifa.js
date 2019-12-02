@@ -23,13 +23,9 @@ function Teste(props){
   const [age, setAge] = React.useState('');
  let state = [];
 
- /*  const inputLabel = React.useRef(null);
-  const [labelWidth, setLabelWidth] = React.useState(0);
-  React.useEffect(() => {
-    setLabelWidth(inputLabel.current.offsetWidth);
-  }, []); */
+
   const handleChange = event => {
-    console.log("111111111111111111111 " + event.target.value)
+    
     setAge(event.target.value);
     fetch("https://olinda.bcb.gov.br/olinda/servico/Informes_ListaTarifaPorValores/versao/v1/odata/ListaTarifasPorValores(CodigoGrupoConsolidado=@CodigoGrupoConsolidado,CodigoServico=@CodigoServico)?@CodigoGrupoConsolidado='03'&@CodigoServico='"+event.target.value+"'&$top=100&$format=json&$select=Cnpj,RazaoSocial,ValorMaximo,Periodicidade")
  
@@ -38,9 +34,7 @@ function Teste(props){
 			state = result.value;
 			return(<div>{state}</div>);
                 },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
+                
                 (error) => {
                     console.log(error);
                 }
@@ -101,9 +95,7 @@ class Tarifa extends React.Component {
                         items: result.value	
                     });
                 },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
+
                 (error) => {
                     this.setState({
                         isLoaded: true,
